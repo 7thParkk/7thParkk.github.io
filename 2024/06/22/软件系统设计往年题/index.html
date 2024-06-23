@@ -27,7 +27,7 @@
 <meta property="og:image" content="https://p7g7gajvp5.feishu.cn/space/api/box/stream/download/asynccode/?code=MjZlMTE4OTBlYjc2MzU5Nzk4NDg1OGY1Mjk1NTEwYjNfQXE0bUNhSTJTaHhQVzhhSlVsMkFLV0VtaVFkejZ6aDVfVG9rZW46VU1RRGJ1RXZob3ZTRFN4enJRTWNzek5FbllnXzE3MTkwNjMxMzc6MTcxOTA2NjczN19WNA">
 <meta property="og:image" content="https://p7g7gajvp5.feishu.cn/space/api/box/stream/download/asynccode/?code=ZmU4OGQ3MDc4MjFlY2U0NmM5Y2ViODUwYzRlYzhjNTFfVDJVdEhtcTJkYlQ3aTdHdVVMZkVaQmJibUM1VFlzdWFfVG9rZW46Wk5TSmI4ZFZsb1hxNHZ4Y05aaGN5ZERSbm1oXzE3MTkwNjMxMzc6MTcxOTA2NjczN19WNA">
 <meta property="article:published_time" content="2024-06-22T13:30:58.000Z">
-<meta property="article:modified_time" content="2024-06-22T13:33:30.151Z">
+<meta property="article:modified_time" content="2024-06-23T05:42:40.721Z">
 <meta property="article:author" content="七号公园园主">
 <meta property="article:tag" content="软件系统设计">
 <meta property="article:tag" content="架构设计">
@@ -346,10 +346,10 @@
 <p><strong>第四题</strong></p>
 <ol>
 <li>架构模式与决策之间的关系<ol>
-<li>决策比架构更简单，仅有单一的结构或机制来应对单一的架构驱动</li>
+<li>决策比架构模式更简单，仅有单一的结构或机制来应对单一的架构驱动</li>
 <li>决策是构成架构模式的重要组成部分</li>
 <li>架构模式通常将许多个决策组合在一起。</li>
-<li>大多数架构模式都包含不同的决策，这些决策可能有共同的目的或者常被用于实现不同的质量属性。</li>
+<li>大多数架构模式都包含不同的决策，这些决策可能有共同的目的或者被用于实现不同的质量属性。</li>
 <li>决策和架构模式共同构成了软件设计时的工具。</li>
 </ol>
 </li>
@@ -405,7 +405,7 @@
 <li>4种视图(了解)：<ol>
 <li>模块视图 Module View：提供一组连贯职责的实现单元</li>
 <li>组件和连接器视图 C &amp; C View：显示某些运行时存在的元素</li>
-<li>分配视图 Allocation View：描述了软件单元到软件开发或执行环境元素的映射</li>
+<li>分配视图 Allocation View：描述了软件元素与环境中的非软件元素之间的映射</li>
 <li>质量视图 Quality Views，安全视图、性能视图、可靠性视图、沟通视图、异常（错误处理）视图</li>
 <li>组合视图：将上述视图进行组合</li>
 </ol>
@@ -570,7 +570,7 @@
 <ol>
 <li>Layered Pattern是Module Style，而Multi-tier Pattern是Allocation Style</li>
 <li>Layered Pattern是将任务拆解成一个个处于特定抽象级别的子层次，每层为下一层提供更高层次的服务，核心是关注点分离。</li>
-<li>Multi-tier Patten中的层是逻辑的组合，没有层次模式的强依赖关系，在不同部署环境中分层不同但是软件完成的内容一致。</li>
+<li>Multi-tier Patten中的层没有层次模式的强依赖关系，在不同部署环境中分层不同但是软件完成的内容一致。</li>
 </ol>
 <p><strong>第17题</strong></p>
 <p>相同点：微服务和SOA都是分布式架构，微服务是SOA的一种扩展，都包含了服务契约、服务封装、服务重用、服务组合、服务自治和服务无状态等基本特点。</p>
@@ -580,7 +580,7 @@
 <ol>
 <li>软件架构的关注点<ol>
 <li>利益相关者 Stakeholders addressed</li>
-<li>解决的问题 Concerns addressed</li>
+<li>解决的问题，业务目标 Concerns addressed</li>
 <li>语言，建模技巧 Language, modeling techniques</li>
 <li>决策，模式 Tactics, Pattern</li>
 </ol>
