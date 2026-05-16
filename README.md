@@ -14,7 +14,6 @@ This is a lightweight static academic homepage inspired by the structure of <htt
 Edit `index.html` and update the remaining placeholders:
 
 - publications
-- experience
 - honors and awards
 - academic service
 

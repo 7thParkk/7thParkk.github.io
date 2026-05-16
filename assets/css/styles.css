@@ -95,8 +95,9 @@ strong {
 
 .masthead__inner {
   display: grid;
-  grid-template-columns: minmax(120px, auto) minmax(0, 1fr) 36px;
+  grid-template-columns: minmax(120px, auto) 36px;
   align-items: center;
+  justify-content: space-between;
   gap: 24px;
   max-width: var(--max-width);
   min-height: 58px;
@@ -401,7 +402,7 @@ strong {
 
 @media (max-width: 860px) {
   .masthead__inner {
-    grid-template-columns: minmax(92px, auto) minmax(0, 1fr) 36px;
+    grid-template-columns: minmax(92px, auto) 36px;
     gap: 14px;
     padding: 0 18px;
   }
