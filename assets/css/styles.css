@@ -188,6 +188,7 @@ strong {
   background: var(--surface-alt);
   box-shadow: var(--shadow);
   object-fit: cover;
+  object-position: center 30%;
 }
 
 .profile-sidebar h1 {

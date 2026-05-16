@@ -7,22 +7,18 @@ This is a lightweight static academic homepage inspired by the structure of <htt
 - `index.html`: homepage content and SEO metadata.
 - `assets/css/styles.css`: responsive layout, typography, light/dark themes.
 - `assets/js/main.js`: theme toggle, icon rendering, active navigation state.
-- `assets/images/avatar-placeholder.svg`: replace this with your own portrait when ready.
+- `assets/images/avatar.jpg`: profile portrait.
 
 ## Customize
 
 Edit `index.html` and update the remaining placeholders:
 
-- `Your University`
-- `your.email@example.com`
-- education records
-- research interests
 - publications
-- projects
 - experience
 - honors and awards
+- academic service
 
-For a real portrait, add your image to `assets/images/`, then update the `<img>` path in `index.html`.
+To replace the portrait later, overwrite `assets/images/avatar.jpg`.
 
 ## Preview Locally
 
