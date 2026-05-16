@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Your Name - Academic Homepage</title>
+    <meta
+      name="description"
+      content="Academic homepage for Your Name, including research interests, publications, education, experience, and awards."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Your Name - Academic Homepage">
+    <meta
+      property="og:description"
+      content="Research profile, publications, projects, and academic activities."
+    >
+    <meta property="og:image" content="assets/images/avatar-placeholder.svg">
+    <meta name="theme-color" content="#f8f7f2">
+    <link rel="icon" href="assets/images/avatar-placeholder.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script>
+      (function () {
+        var savedTheme = localStorage.getItem("theme");
+        var prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        document.documentElement.dataset.theme = savedTheme || (prefersDark ? "dark" : "light");
+      })();
+    </script>
+    <script defer src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script defer src="assets/js/main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+
+    <header class="masthead">
+      <div class="masthead__inner">
+        <a class="brand" href="#top" aria-label="Homepage">Homepage</a>
+        <nav class="nav-links" aria-label="Primary navigation">
+          <a href="#about">About</a>
+          <a href="#education">Education</a>
+          <a href="#research">Research</a>
+          <a href="#publications">Publications</a>
+          <a href="#experience">Experience</a>
+          <a href="#awards">Awards</a>
+        </nav>
+        <button class="icon-button" id="theme-toggle" type="button" title="Toggle theme" aria-label="Toggle theme">
+          <i data-lucide="sun" aria-hidden="true"></i>
+        </button>
+      </div>
+    </header>
+
+    <main class="page-shell" id="top">
+      <aside class="profile-sidebar" aria-label="Profile">
+        <div class="profile-sticky">
+          <img class="avatar" src="assets/images/avatar-placeholder.svg" alt="Portrait placeholder for Your Name">
+          <h1>Your Name</h1>
+          <p class="role">
+            PhD Student / Researcher<br>
+            Computer Science | AI | Systems
+          </p>
+
+          <ul class="profile-meta" aria-label="Contact and links">
+            <li>
+              <i data-lucide="map-pin" aria-hidden="true"></i>
+              City, Country
+            </li>
+            <li>
+              <i data-lucide="building-2" aria-hidden="true"></i>
+              Your University
+            </li>
+            <li>
+              <a href="mailto:your.email@example.com">
+                <i data-lucide="mail" aria-hidden="true"></i>
+                Email
+              </a>
+            </li>
+            <li>
+              <a href="https://scholar.google.com/" target="_blank" rel="noreferrer">
+                <i data-lucide="graduation-cap" aria-hidden="true"></i>
+                Google Scholar
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/" target="_blank" rel="noreferrer">
+                <i data-lucide="github" aria-hidden="true"></i>
+                GitHub
+              </a>
+            </li>
+            <li>
+              <a href="https://orcid.org/" target="_blank" rel="noreferrer">
+                <i data-lucide="fingerprint" aria-hidden="true"></i>
+                ORCID
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <article class="content" id="content">
+        <header class="intro" id="about">
+          <p class="eyebrow">Academic Homepage</p>
+          <h2>Your Name</h2>
+          <p>
+            Welcome to my homepage. I am a researcher in computer science, with broad interests in
+            artificial intelligence, software systems, security, and trustworthy computing. My work
+            focuses on building reliable methods and practical tools for real-world technical problems.
+          </p>
+          <p>
+            我目前关注智能系统、软件工程与安全分析等方向，也对可解释、可验证、可复现的研究工具感兴趣。
+            这个主页收录我的教育经历、研究兴趣、论文、项目经历和学术动态。
+          </p>
+        </header>
+
+        <section class="section" id="news" aria-labelledby="news-title">
+          <h2 id="news-title">News</h2>
+          <ul class="timeline compact-list">
+            <li>
+              <time datetime="2026-05">2026.05</time>
+              <span>Homepage launched.</span>
+            </li>
+            <li>
+              <time datetime="2026-03">2026.03</time>
+              <span>One research project started on AI-assisted program analysis.</span>
+            </li>
+          </ul>
+        </section>
+
+        <section class="section" id="education" aria-labelledby="education-title">
+          <h2 id="education-title">Education</h2>
+          <ul class="compact-list">
+            <li>
+              <strong>2026.09 - Present</strong>, PhD Student in Computer Science,
+              Your University, Country. Advisor: Prof. Advisor Name.
+            </li>
+            <li>
+              <strong>2023.09 - 2026.06</strong>, M.S. in Computer Science,
+              Your University, Country.
+            </li>
+            <li>
+              <strong>2019.09 - 2023.06</strong>, B.Eng. in Software Engineering,
+              Your University, Country.
+            </li>
+          </ul>
+        </section>
+
+        <section class="section" id="research" aria-labelledby="research-title">
+          <h2 id="research-title">Research Interests</h2>
+          <p>
+            My research goal is to design dependable computational methods that can help people understand,
+            validate, and improve complex software and intelligent systems. Current directions include:
+          </p>
+          <div class="research-grid">
+            <section class="research-item" aria-labelledby="research-ai">
+              <h3 id="research-ai">AI for Software Engineering</h3>
+              <p>
+                LLM agents, automated debugging, program repair, test generation, and tool-augmented
+                workflows for practical software development.
+              </p>
+            </section>
+            <section class="research-item" aria-labelledby="research-security">
+              <h3 id="research-security">Security and Reliability</h3>
+              <p>
+                Vulnerability discovery, empirical security measurement, secure-by-design systems,
+                and reproducible validation for high-impact bugs.
+              </p>
+            </section>
+            <section class="research-item" aria-labelledby="research-systems">
+              <h3 id="research-systems">Human-Centered Systems</h3>
+              <p>
+                Interfaces and infrastructures that make research artifacts easier to inspect,
+                reuse, and evaluate by both experts and new learners.
+              </p>
+            </section>
+          </div>
+        </section>
+
+        <section class="section" id="publications" aria-labelledby="publications-title">
+          <h2 id="publications-title">Selected Publications</h2>
+          <ul class="publication-list">
+            <li>
+              <article class="publication">
+                <h3>Paper Title: A Concise Description of Your Research Contribution</h3>
+                <p class="authors"><strong><u>Your Name</u></strong>, Coauthor A, Coauthor B</p>
+                <p class="venue">
+                  Conference / Journal Name, 2026
+                  <a href="#" aria-label="Paper link">paper</a>
+                  <a href="#" aria-label="Code link">code</a>
+                </p>
+              </article>
+            </li>
+            <li>
+              <article class="publication">
+                <h3>Another Paper Title on Systems, AI, or Security</h3>
+                <p class="authors">Coauthor A, <strong><u>Your Name</u></strong>, Coauthor B</p>
+                <p class="venue">
+                  arXiv preprint, 2025
+                  <a href="#" aria-label="Paper link">paper</a>
+                </p>
+              </article>
+            </li>
+          </ul>
+        </section>
+
+        <section class="section" id="projects" aria-labelledby="projects-title">
+          <h2 id="projects-title">Projects</h2>
+          <ul class="compact-list">
+            <li>
+              <strong>Research Toolkit</strong>: an open-source prototype for collecting, analyzing,
+              and visualizing experimental results.
+            </li>
+            <li>
+              <strong>Agent Evaluation Bench</strong>: a benchmark suite for evaluating tool-using
+              AI agents on code understanding tasks.
+            </li>
+          </ul>
+        </section>
+
+        <section class="section" id="experience" aria-labelledby="experience-title">
+          <h2 id="experience-title">Experience</h2>
+          <ul class="compact-list">
+            <li>
+              <strong>2025.06 - 2025.09</strong>, Research Intern, Lab / Company Name.
+              Worked on reliable AI systems and evaluation pipelines.
+            </li>
+            <li>
+              <strong>2024.07 - 2024.10</strong>, Software Engineering Intern, Company Name.
+              Built developer tools and data processing infrastructure.
+            </li>
+          </ul>
+        </section>
+
+        <section class="section" id="awards" aria-labelledby="awards-title">
+          <h2 id="awards-title">Honors &amp; Awards</h2>
+          <ul class="compact-list">
+            <li><strong>2026</strong>, Outstanding Graduate Student Award.</li>
+            <li><strong>2025</strong>, University Scholarship.</li>
+            <li><strong>2024</strong>, Best Research Prototype Award.</li>
+          </ul>
+        </section>
+
+        <section class="section" id="service" aria-labelledby="service-title">
+          <h2 id="service-title">Academic Service</h2>
+          <ul class="compact-list">
+            <li>Reviewer for Conference / Journal Name.</li>
+            <li>Teaching assistant for Course Name.</li>
+          </ul>
+        </section>
+
+        <footer class="site-footer">
+          <p>© 2026 Your Name. Built as a static academic homepage.</p>
+        </footer>
+      </article>
+    </main>
+  </body>
+</html>
