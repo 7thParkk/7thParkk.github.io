@@ -21,9 +21,8 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <script>
       (function () {
-        var savedTheme = localStorage.getItem("theme");
-        var prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-        document.documentElement.dataset.theme = savedTheme || (prefersDark ? "dark" : "light");
+        var savedTheme = localStorage.getItem("homepage-theme");
+        document.documentElement.dataset.theme = savedTheme || "light";
       })();
     </script>
     <script defer src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>

@@ -22,7 +22,7 @@ function updateThemeButton() {
 themeToggle.addEventListener("click", () => {
   const nextTheme = root.dataset.theme === "dark" ? "light" : "dark";
   root.dataset.theme = nextTheme;
-  localStorage.setItem("theme", nextTheme);
+  localStorage.setItem("homepage-theme", nextTheme);
   updateThemeButton();
 });
 
