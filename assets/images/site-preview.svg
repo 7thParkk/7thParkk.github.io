@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Chenchen Yu academic homepage preview</title>
+  <desc id="desc">A neutral website preview image for Chenchen Yu's academic homepage.</desc>
+  <rect width="1200" height="630" fill="#f8f7f2"/>
+  <rect x="88" y="82" width="1024" height="466" rx="22" fill="#ffffff" stroke="#dedbd2" stroke-width="3"/>
+  <path d="M228 178 342 222v84c0 85-45.5 148.5-114 180-68.5-31.5-114-95-114-180v-84l114-44Z" fill="#0f766e"/>
+  <path d="M171 267c24 0 43 5 57 16 14-11 33-16 57-16v145c-24 0-43 5-57 16-14-11-33-16-57-16V267Z" fill="#ffffff"/>
+  <path d="M228 283v145" stroke="#0f766e" stroke-width="9" stroke-linecap="round"/>
+  <path d="M191 311c13 1 23 4 32 8M191 348c13 1 23 4 32 8M265 311c-13 1-23 4-32 8M265 348c-13 1-23 4-32 8" stroke="#0f766e" stroke-width="7" stroke-linecap="round"/>
+  <text x="430" y="270" fill="#202124" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="800">Chenchen Yu</text>
+  <text x="432" y="338" fill="#5f666d" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="600">Academic Homepage</text>
+  <text x="432" y="404" fill="#0f766e" font-family="Inter, Arial, sans-serif" font-size="31" font-weight="700">Vulnerability Detection &amp; Repair</text>
+  <text x="432" y="454" fill="#0f766e" font-family="Inter, Arial, sans-serif" font-size="31" font-weight="700">Security Patch Detection &amp; Generation</text>
+</svg>

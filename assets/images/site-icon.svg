@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Academic homepage icon</title>
+  <desc id="desc">A neutral shield and book icon for Chenchen Yu's academic homepage.</desc>
+  <rect width="64" height="64" rx="14" fill="#f8f7f2"/>
+  <path d="M32 8 50 15v13c0 13.2-7.2 23.2-18 28-10.8-4.8-18-14.8-18-28V15l18-7Z" fill="#0f766e"/>
+  <path d="M23 22c3.6 0 6.5.7 9 2.3 2.5-1.6 5.4-2.3 9-2.3v22c-3.6 0-6.5.7-9 2.3-2.5-1.6-5.4-2.3-9-2.3V22Z" fill="#ffffff"/>
+  <path d="M32 24.3v22" stroke="#0f766e" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M26 28.5c1.9.1 3.6.5 5 1.2M26 34c1.9.1 3.6.5 5 1.2M38 28.5c-1.9.1-3.6.5-5 1.2M38 34c-1.9.1-3.6.5-5 1.2" stroke="#0f766e" stroke-width="2" stroke-linecap="round"/>
+</svg>
