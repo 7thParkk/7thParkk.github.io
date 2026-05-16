@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
   <title id="title">Academic profile placeholder</title>
-  <desc id="desc">A simple circular profile image placeholder with the initials YN.</desc>
+  <desc id="desc">A simple circular profile image placeholder with the initials CY.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#f4efe4"/>
@@ -23,5 +23,5 @@
     font-size="88"
     font-weight="800"
     text-anchor="middle"
-  >YN</text>
+  >CY</text>
 </svg>

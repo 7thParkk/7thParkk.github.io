@@ -11,9 +11,8 @@ This is a lightweight static academic homepage inspired by the structure of <htt
 
 ## Customize
 
-Edit `index.html` and replace:
+Edit `index.html` and update the remaining placeholders:
 
-- `Your Name`
 - `Your University`
 - `your.email@example.com`
 - education records
